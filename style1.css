@@ -1,0 +1,53 @@
+#column1{
+	background-color:#16697A;
+	width:1200px;
+	height:600px;
+}
+
+#column2{
+	background-color:white;
+	width:1200px;
+	height:600px;
+}
+
+input[type=text]{
+width: 50%;
+   border-radius: 25px;
+   padding-left: 12px;
+  
+  
+}
+input[type=password]{
+width: 50%;
+   border-radius: 25px;
+   padding-left: 12px;
+}
+input[type=button]{
+width: 30%;
+   border-radius: 25px;
+   background-color:#16697A;
+   color:white;
+  
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #16697A;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #16697A;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #16697A;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #16697A;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:   #16697A;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #16697A;
+}
